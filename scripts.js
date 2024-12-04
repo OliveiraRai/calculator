@@ -1,5 +1,9 @@
 function chooseKey(button){
     const input = document.getElementById("input")
+    if(input.value === "Error"){
+        input.value = "";
+    }
+    
     input.value += button.textContent;
 }
 
