@@ -9,24 +9,24 @@
 </head>
 <body>
     <div id="calculatorContainer">
-        <input type="text" readonly>
+        <input type="text" id="input" readonly>
         <div id="keyContainer">
-            <button>9</button>
-            <button>8</button>
-            <button>7</button>
-            <button>+</button>
-            <button>6</button>
-            <button>5</button>
-            <button>4</button>
-            <button>-</button>
-            <button>3</button>
-            <button>2</button>
-            <button>1</button>
-            <button>*</button>
-            <button>0</button>
-            <button>=</button>
-            <button>C</button>
-            <button>/</button>
+            <button class="key" onclick="chooseKey(this)">9</button>
+            <button class="key" onclick="chooseKey(this)">8</button>
+            <button class="key" onclick="chooseKey(this)">7</button>
+            <button class="key" onclick="chooseKey(this)">+</button>
+            <button class="key" onclick="chooseKey(this)">6</button>
+            <button class="key" onclick="chooseKey(this)">5</button>
+            <button class="key" onclick="chooseKey(this)">4</button>
+            <button class="key" onclick="chooseKey(this)">-</button>
+            <button class="key" onclick="chooseKey(this)">3</button>
+            <button class="key" onclick="chooseKey(this)">2</button>
+            <button class="key" onclick="chooseKey(this)">1</button>
+            <button class="key" onclick="chooseKey(this)">*</button>
+            <button class="key" onclick="chooseKey(this)">0</button>
+            <button class="key" onclick="calculate(this)">=</button>
+            <button class="key" onclick="clearText(this)">C</button>
+            <button class="key" onclick="chooseKey(this)">/</button>
         </div>
     </div>
 </body>
