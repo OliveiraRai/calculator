@@ -61,3 +61,11 @@ body {
 #keyContainer button:active {
     background-color: #777;
 }
+
+/* Responsivity (is this word correctly writed?) */
+
+@media (max-width: 1016px) {
+    #calculatorContainer {
+        width: fit-content; 
+    }
+}
